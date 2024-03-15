@@ -19,8 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #ifdef RGB_MATRIX_ENABLE
-#    define RGB_MATRIX_LED_COUNT 54
-#    define RGB_MATRIX_SPLIT \
-        { 27, 27 }
+#    define RGB_MATRIX_LED_COUNT 42
+#    define RGB_MATRIX_SPLIT { 21, 21 }
 #    define SPLIT_TRANSPORT_MIRROR
 #endif

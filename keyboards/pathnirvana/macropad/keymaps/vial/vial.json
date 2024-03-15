@@ -3,6 +3,9 @@
     "rows": 4,
     "cols": 4
   },
+  "vendorId": "0x03F0",
+  "productId": "0x034A",
+  "lighting": "vialrgb",
   "layouts": {
     "keymap": [
       [

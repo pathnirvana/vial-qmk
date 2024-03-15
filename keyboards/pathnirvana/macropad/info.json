@@ -1,0 +1,43 @@
+{
+    "keyboard_name": "Macropad 4x4",
+    "manufacturer": "pathnirvana",
+    "url": "",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0x03F0",
+        "pid": "0x020C",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "rgb_matrix": true,
+        "rgblight": false,
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "rgblight": {
+        "led_count": 15
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "led_count": 15,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true
+        },
+        "default": {
+            "animation": "rainbow_mood"
+        }
+    },
+    "ws2812": {
+        "pin": "GP13"
+    },
+    "matrix_pins": {
+        "cols": [ "GP12", "GP11", "GP10", "GP9" ],
+        "rows": [ "GP2", "GP3", "GP4", "GP5" ]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "bootloader": "rp2040"
+}
